@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sc-eureka-client" />
         <module name="sc-eureka-server" />
+        <module name="sc-service-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="sc-eureka-client" target="1.8" />
       <module name="sc-eureka-server" target="1.8" />
       <module name="sc-pom" target="1.8" />
+      <module name="sc-service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

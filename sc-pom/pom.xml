@@ -69,6 +69,7 @@
     <modules>
         <module>../sc-eureka-server</module>
         <module>../sc-eureka-client</module>
+        <module>../sc-service-ribbon</module>
     </modules>
 
 </project>

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../sc-eureka-client/sc-eureka-client.iml" filepath="$PROJECT_DIR$/../sc-eureka-client/sc-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/../sc-eureka-server/sc-eureka-server.iml" filepath="$PROJECT_DIR$/../sc-eureka-server/sc-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/sc-pom.iml" filepath="$PROJECT_DIR$/sc-pom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sc-service-ribbon/sc-service-ribbon.iml" filepath="$PROJECT_DIR$/../sc-service-ribbon/sc-service-ribbon.iml" />
     </modules>
   </component>
 </project>
