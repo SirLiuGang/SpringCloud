@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.cn.sn.lg.springcloud</groupId>
+    <artifactId>sc-service-ribbon</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>sc-service-ribbon</name>
+    <description>Ribbon is a client side load balancer which gives you a lot of control over the behaviour of HTTP and
+        TCP clients. Feign already uses Ribbon, so if you are using @FeignClient then this section also applies.
+    </description>
+
+    <parent>
+        <groupId>com.cn.sn.lg.springcloud</groupId>
+        <artifactId>sc-pom</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../sc-pom</relativePath>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
